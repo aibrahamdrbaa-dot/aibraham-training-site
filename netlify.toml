@@ -5,6 +5,7 @@
   from = "/verify/*"
   to = "/verify.html?token=:splat"
   status = 200
+  force = true
 
 [[headers]]
   for = "/*"
