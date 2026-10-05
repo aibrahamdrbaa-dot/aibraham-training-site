@@ -17,7 +17,3 @@ https://aibraham-training-site.netlify.app/
 
 The certificate verification page keeps the basic/manual flow as the source of truth:
 https://aibraham-training-site.netlify.app/verify.html
-
-## Deployment
-
-Pushes to the `main` branch are configured to trigger the Netlify deployment automatically.
