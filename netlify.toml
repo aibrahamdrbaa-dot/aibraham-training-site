@@ -1,1 +1,14 @@
-[build]\n  publish = "."\n\n[[redirects]]\n  from = "/verify/*"\n  to = "/verify.html?token=:splat"\n  status = 200\n\n[[headers]]\n  for = "/*"\n  [headers.values]\n    X-Frame-Options = "SAMEORIGIN"\n    X-Content-Type-Options = "nosniff"\n    Referrer-Policy = "strict-origin-when-cross-origin"\n
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/verify/*"
+  to = "/verify.html?token=:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
