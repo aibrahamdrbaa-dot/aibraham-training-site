@@ -72,6 +72,14 @@
       "hours": "32 ساعة تدريبية",
       "certificateId": "AIB-2026-0009",
       "status": "valid"
+    },
+    {
+      "token": "R4cT9mV2qL7wX1nB6kH8sJ5p",
+      "name": "محمد ادهم حده",
+      "course": "دورة تطبيقات الذكاء الاصطناعي الشاملة",
+      "hours": "32 ساعة تدريبية",
+      "certificateId": "AIB-2026-0010",
+      "status": "valid"
     }
   ]
 }
